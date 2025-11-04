@@ -13,7 +13,7 @@ A lightweight Python module for filtering out redundant time-series or streaming
 git clone https://github.com/doosupchung/changefilter.git
 cd changefilter
 pip install -e .
-
+```
 ## Usage Example
 
 You can run the module directly to test it:
