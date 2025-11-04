@@ -13,3 +13,26 @@ A lightweight Python module for filtering out redundant time-series or streaming
 git clone https://github.com/doosupchung/changefilter.git
 cd changefilter
 pip install -e .
+
+## Usage Example
+
+You can run the module directly to test it:
+
+```bash
+python -m changefilter.core
+```
+## Result example
+```bash
+[
+  {
+    "param": "A",
+    "time": 0.01,
+    "value": 100.0
+  },
+  {
+    "param": "A",
+    "time": 0.03,
+    "value": 100.6
+  }
+]
+```
